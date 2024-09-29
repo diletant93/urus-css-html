@@ -188,3 +188,91 @@ body{
     font-size: 36px;
     color: #ffff;
 }
+.contacts{
+    background-color: #13171C;
+    padding: 170px 0 115px ;
+}
+.contacts__title{
+    text-align: center;
+    color: #FF5017;
+    font-size: 36px;
+    margin-bottom: 67px;
+    text-transform: uppercase;
+}
+.contacts__box{
+ display: flex;
+ justify-content: space-between;
+ gap: 203px;
+ padding-left: 307px;
+ padding-right: 143px;
+}
+.contacts__info{
+    max-width: 563px;
+}
+.contacts__headtext{
+    font-size: 24px;
+    color: #BCBCBC;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.contacts__text, 
+.phone,
+.contacts__text-rules{
+    color: #fff;
+    font-size: 24px;
+}
+.phone{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 77px;
+}
+.contacts__text{
+    padding-top: 10px;
+    max-width: 477px;
+}
+.contacts__text-rules{
+    font-size: 14px;
+    max-width: 330px;
+}
+.form{
+    flex-basis: 594px;
+}
+.form__input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    max-width: 594px;
+    font-size: 24px;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+.form__input::placeholder{
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.footer{
+    text-align: center;
+    padding: 15px 0 90px;
+    font-size: 14px;
+    color: white;
+    background-color: #13171C;
+}
+.price--white{
+    color: #fff;
+}
+.price--big{
+    font-size: 36px;
+}
+.form__order{
+   width: 100%;
+}

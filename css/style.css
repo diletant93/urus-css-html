@@ -101,6 +101,7 @@ body{
     top: 50px;
     bottom: 0;
     margin: auto;
+    max-width: 100%;
 }
 .info{
     background-color: #F8F8F8;
@@ -141,6 +142,7 @@ body{
     font-size: 46px;
     margin-bottom: 40px;
     text-transform: uppercase;
+    text-align: center;
 }
 .order{
     padding: 30px 60px;
@@ -153,6 +155,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+  
 }
 .info__gallery-img{
     border-radius: 20px;
@@ -275,4 +278,121 @@ body{
 }
 .form__order{
    width: 100%;
+}
+
+@media (max-width:1872px){
+    .info__gallery{
+        flex-wrap: wrap;
+        gap: 24px 20px;
+    }
+    .info__gallery-img{
+        width: 49%;
+    }
+}
+
+
+@media (max-width:1240px){
+    .container{
+        padding: 0 10px;
+    }
+    .title{
+        padding-left: 0;
+        font-size: 280px;
+    }
+    .subtitle{
+        padding-right: 0;
+        font-size: 140px;
+    }
+    .header__images{
+        top: 0;
+    }
+    .info{
+        padding: 100px 0px;
+    }
+    .section-title{
+        font-size: 86px;
+    }
+    .info__content{
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 100px;
+        gap: 20px;
+    }
+}
+@media (max-width:1040px) {
+    .info__gallery-img{
+        width: 100%;
+    }
+    .info__content{
+        margin-bottom: 50px;
+    }
+    .info__list{
+        gap: 20px;
+    }
+    .price{
+        font-size:32px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:850px){
+    .title{
+        font-size: 180px;
+    }
+    .subtitle{
+        font-size: 90px;
+    }
+    .header__top{
+        padding-top: 25px;
+    }
+    .menu__btn span{
+        box-sizing: content-box;
+        border:1px solid #0000;
+    }
+    .info{
+        padding: 50px 0px;   
+    }
+    .info__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-title{
+        font-size: 70px;
+    }
+    .info__list{
+        column-count: 1;
+    }
+    .info__list-item{
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+    .order{
+        padding: 25px 45px;
+    }
+}
+@media (max-width:750px){
+    .info__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info__list-item{
+        text-align: center;
+    }
+}
+@media(max-width:520px)
+{
+    .title{
+        font-size: 107px;
+    }
+    .subtitle{
+        font-size: 57px;
+    }
+    .section-title{
+        font-size: 50px;
+    }
+    .price{
+        font-size: 28px;
+    }
+    .order{
+        padding: 20px 35px;
+    }
 }

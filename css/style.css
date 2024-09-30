@@ -318,6 +318,18 @@ body{
         margin-bottom: 100px;
         gap: 20px;
     }
+    .color__gallery-box{
+        padding: 50px 20px;
+        flex-wrap: wrap;
+    }
+    .color__gallery-box-item{
+        width: 48%;
+        font-size: 28px;
+    }
+    .color__gallery-box-img{
+        width: 100%;
+        border-radius: 30px;
+    }
 }
 @media (max-width:1040px) {
     .info__gallery-img{
@@ -376,6 +388,20 @@ body{
     }
     .info__list-item{
         text-align: center;
+    }
+}
+@media(max-width:540px){
+    .color__gallery-box{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .color__gallery-box-item{
+        width: 100%;
+        gap:30px;
+    }
+    .color__gallery-box-img{
+        margin-bottom: 5px;
     }
 }
 @media(max-width:520px)
